@@ -1,0 +1,52 @@
+.player-button-icon, .features-icon-5, .google-icons-— копия, .apple-icon, .features-icon-1, .features-icon-2, .features-icon-3, .features-icon-4{
+	background: url(sprites.png) no-repeat;
+}
+
+.player-button-icon{
+	background-position: 0 0;
+	width: 51px;
+	height: 51px;
+}
+
+.features-icon-5{
+	background-position: -174.97857666015625px -183.97821044921875px ;
+	width: 66px;
+	height: 73px;
+}
+
+.google-icons-— копия{
+	background-position: -59.97857666015625px 0;
+	width: 145px;
+	height: 48px;
+}
+
+.apple-icon{
+	background-position: -214.96881103515625px 0;
+	width: 145px;
+	height: 48px;
+}
+
+.features-icon-1{
+	background-position: 0 -59.946685791015625px ;
+	width: 102px;
+	height: 102px;
+}
+
+.features-icon-2{
+	background-position: 0 -176.9654541015625px ;
+	width: 141px;
+	height: 81px;
+}
+
+.features-icon-3{
+	background-position: -268.96331787109375px -60.9661865234375px ;
+	width: 106px;
+	height: 96px;
+}
+
+.features-icon-4{
+	background-position: -119.95306396484375px -62.95458984375px ;
+	width: 129px;
+	height: 100px;
+}
+

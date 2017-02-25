@@ -1,0 +1,98 @@
+@import "bourbon";
+@import "components/vars.scss";
+
+.header {
+    padding: 40px 0 60px 0;
+}
+.header__wrapper {
+    @extend .container;
+    @extend .clearfix;
+    position: relative;
+}
+.header__box {
+    position: absolute;
+    right: 9%;
+    top: 50px;
+    text-align: center;
+}
+.header__logo {
+
+    margin: 0 0 60px 0;
+    img {
+
+
+        max-width: 100%;
+        height: auto;
+    }
+}
+.header__video {
+
+}
+.header__video-text {
+    margin: 0 0 38px 0;
+    font-size: rem(22.5px);
+}
+.header__video-button {
+    margin: 38px 0 0 0;
+    text-decoration: none;
+    color: #333;
+    font-size: rem(30px);
+    a {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        padding: 0 0 0 64px;
+        color: #333;
+        text-decoration: none;
+        transition: opacity .3s ease;
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: -5px;
+            background-image: url(../img/sprites.png);
+            background-position: 0 0;
+        	width: 51px;
+        	height: 51px;
+        }
+        &:hover, &:active, &:focus {
+            opacity: .8;
+        }
+    }
+
+}
+.header__img {
+    width: 67%;
+    margin: 0 0 40px 9.5%;
+    img {
+
+        max-width: 100%;
+    }
+}
+.header__btn-box {
+    margin: 40px 0 0 0;
+    text-align: center;
+}
+.header__btn-text {
+    margin: 0 0 16px 0;
+    font-size: rem(30px);
+}
+.header__btn {
+    margin: 16px 0 0 0;
+    font-size: rem(30px);
+    a {
+        display: inline-block;
+        vertical-align: top;
+        padding: 15px 50px;
+        text-decoration: none;
+        color: #333;
+        border: 2px solid #333;
+        border-radius: 40px;
+        transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+        &:hover, &:active, &:focus {
+            background-color: #ba00a2;
+            color: #fff;
+            border-color: #ba00a2;
+        }
+    }
+}
